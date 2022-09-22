@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminHome.Master.cs" Inherits="Railways.Master_Pages.Adminlogin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin HomePage</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link href="AdminHome.css" rel="stylesheet" />
+     <link rel="icon" href="https://0901.static.prezi.com/preview/v2/g52vvaj6if64i2k7zwaupamo6d6jc3sachvcdoaizecfr3dnitcq_3_0.png" type="image/x-icon"/>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="mainloginbox">
+                    <div class="dropdownuser">
+             <div class="dropbtnuser">  
+                 <asp:Label ID="Username" runat="server" Text="Hi,ADMIN"></asp:Label>
+                </div>
+             
+       <div class="dropdownuser-content">
+    <a href="Adminlogin.aspx" onclick="unload_admin">Log Out</a>
+  </div>
+</div>
+                <asp:TextBox ID="aler" placeholder="Enter New Password" Type="Password" Visible="false" runat="server"  Width="247px">
+               </asp:TextBox>
+	<div class="wrapper">
+	
+	<img class="logo" onclick="loginHomePage.aspx" style="cursor:pointer;" src="https://getinfopk.com/wp-content/uploads/Pakistan-Railway-Jobs-2020.png"/>
+			<nav class="navbar">
+			<center>
+				<ul>
+					<li><a href="AdminHomePage.aspx">Home</a></li>
+					   <li><a href="Add Train.aspx">Add Train</a></li>
+					   <li><a href="Addtrip.aspx">Add Trip</a></li>
+					<li><a href="DeleteTrain">Delete Train</a></li>
+					<li><a href="adminfeedback.aspx">Feedback</a></li>
+				</ul>
+			</center>	
+			</nav>
+
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+         </div>
+            
+        <hr class="line12"/>
+		   <nav class="endnavbar">
+		   <center><br>
+           <div style="color:white;position:inherit;top:45%;"> © Copyright 2021-29 Directorate of Information Technology Pakistan Railways. All Rights Reserved.</div>
+		  </center>
+		   </nav>
+            </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,69 @@
+﻿body {
+}
+
+
+.lahore{
+    width:20%;
+    height:5%;
+    position:fixed;
+   left:27%;
+   top:35%;
+}
+.karachi{
+    width:20%;
+    height:5%;
+    position:fixed;
+   left:50%;
+   top:35%;
+}
+.fsd{
+    width:20%;
+    height:5%;
+    position:fixed;
+   left:74%;
+   top:35%;
+}
+.lahoretext {
+    color:white;
+    text-decoration-line: underline;
+    font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+    text-decoration:dotted;
+     text-align:center;
+    width:20%;
+    background: rgba(0,0,0,0.4);
+    background-color:green;
+     position:fixed;
+   left:27%;
+   top:40%;
+
+}
+.karachitext {
+    color:white;
+    text-decoration-line: underline;
+    font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+    text-decoration:dotted;
+     text-align:center;
+    width:20%;
+    background: rgba(0,0,0,0.4);
+    background-color:green;
+     position:fixed;
+   left:50%;
+   top:40%;
+}
+.fsdtext {
+    color:white;
+    text-decoration-line: underline;
+    font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+    text-decoration:dotted;
+    text-align:center;
+    width:20%;
+    background: rgba(0,0,0,0.4);
+    background-color:green;
+    position:fixed;
+    left:74%;
+    top:40%;
+
+}
